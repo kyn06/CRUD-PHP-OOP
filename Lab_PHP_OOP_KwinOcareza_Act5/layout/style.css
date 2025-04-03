@@ -1,0 +1,162 @@
+body {
+  font-family: "Verdana", serif;
+  background-color: #7bb497;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 2%;
+  letter-spacing: 1rem;
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.title {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.container-xxl {
+  background-color: white;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  height: 100%;
+  width: 100%;
+  max-height: fit-content;
+  max-width: fit-content;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #2d4b48;
+}
+
+.info-data {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.card .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card .head .icon {
+  font-size: 65px;
+  color: #5c8966;
+}
+
+.card h2 {
+  font-size: 40px;
+  margin-right: 100px;
+}
+
+.card p {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #888;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d4b48;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.navbar .brand {
+  font-size: 35px;
+  letter-spacing: 10px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.navbar .nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 60px;
+}
+
+.navbar .nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .nav-links a .icon {
+  margin-right: 10px;
+  margin-top: 1px;
+}
+
+.navbar .nav-links a.active {
+  background: #7bb497;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar .user-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .user-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 25px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .user-links a .icon {
+  margin-right: 10px;
+}
+
+.navbar .user-links a.active {
+  background: #7bb497;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.logout-container {
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+}
+
+.logout-btn {
+  background-color: #5c8966;
+  border: none;
+  color: white;
+  font-size: 30px;
+  padding: 15px 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+}
+
+.logout-btn:hover {
+  background-color: #4a7055;
+}
